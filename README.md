@@ -45,6 +45,9 @@ raw seeds (simulated source data)
 
 ![Lineage graph](docs/lineage.png)
 
+<img width="1459" height="829" alt="image" src="https://github.com/user-attachments/assets/e407ebc1-eab3-496b-af72-c27c7fa233f9" />
+
+
 ## Run it yourself
 
 ```bash
