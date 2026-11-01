@@ -1,0 +1,4 @@
+status,status_label,counts_as_spend
+placed,Placed,true
+completed,Completed,true
+returned,Returned,false

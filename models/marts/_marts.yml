@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "One row per customer, with order counts and spend. Spend counts completed and placed orders only; returned orders are excluded."
+    columns:
+      - name: customer_id
+        description: "Primary key. Matches stg_customers.customer_id."
+        data_tests:
+          - unique
+          - not_null
+      - name: total_spend
+        description: "Sum of order amounts with status completed or placed. Returned orders are excluded."
